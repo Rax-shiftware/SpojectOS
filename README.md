@@ -21,4 +21,4 @@ SpojectOS uses the following programming languages:
 - Batch Script
 - HTML
 - CSS
-- etc.
+etc.
