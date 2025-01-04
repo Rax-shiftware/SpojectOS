@@ -1,0 +1,28 @@
+{
+    "themes": [
+        {
+            "name": "Light",
+            "background": "#ffffff",
+            "foreground": "#000000",
+            "primary": "#007bff",
+            "secondary": "#6c757d",
+            "accent": "#17a2b8"
+        },
+        {
+            "name": "Dark",
+            "background": "#343a40",
+            "foreground": "#ffffff",
+            "primary": "#007bff",
+            "secondary": "#6c757d",
+            "accent": "#17a2b8"
+        },
+        {
+            "name": "Solarized",
+            "background": "#fdf6e3",
+            "foreground": "#657b83",
+            "primary": "#268bd2",
+            "secondary": "#2aa198",
+            "accent": "#b58900"
+        }
+    ]
+}
