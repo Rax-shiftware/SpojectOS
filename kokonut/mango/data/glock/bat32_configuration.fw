@@ -1,0 +1,5 @@
+PARTITIONS,bootable,partition_path_on_device
+BOOT,no,/dev/sda1
+ROOT,no,/dev/sda2
+HOME,no,/dev/sda3
+EFI,yes,/dev/sda4
