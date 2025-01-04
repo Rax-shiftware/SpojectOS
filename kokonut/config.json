@@ -1,0 +1,57 @@
+{
+  "appName": "Kokonut",
+  "version": "1.0.0",
+  "settings": {
+    "theme": "light",
+    "language": "en",
+    "notifications": {
+      "enabled": true,
+      "sound": true,
+      "vibration": false
+    },
+    "privacy": {
+      "tracking": false,
+      "dataCollection": "minimal"
+    },
+    "display": {
+      "brightness": 75,
+      "autoAdjust": true
+    },
+    "network": {
+      "wifi": {
+        "enabled": true,
+        "preferredNetwork": "HomeNetwork"
+      },
+      "mobileData": {
+        "enabled": false,
+        "dataLimit": "2GB"
+      }
+    },
+    "security": {
+      "encryption": "AES-256",
+      "twoFactorAuth": true,
+      "autoLock": {
+        "enabled": true,
+        "timeout": 5
+      }
+    },
+    "updates": {
+      "autoUpdate": true,
+      "updateChannel": "stable"
+    },
+    "backup": {
+      "enabled": true,
+      "frequency": "daily",
+      "location": "cloud"
+    },
+    "userPreferences": {
+      "defaultPage": "dashboard",
+      "recentFiles": 10,
+      "shortcuts": {
+        "save": "Ctrl+S",
+        "open": "Ctrl+O",
+        "close": "Ctrl+W"
+      }
+    }
+  }
+}

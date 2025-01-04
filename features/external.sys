@@ -1,0 +1,23 @@
+# External Storage Device Configuration for SYS Format (Windows)
+
+# Device Name: External Storage Device
+# Format: SYS
+
+# Configuration Parameters
+device_name=external_storage_device
+format=sys
+
+# Mount Point
+mount_point=D:\external_storage
+
+# File System Options
+fs_options=default
+
+# Mount Options
+mount_options=rw
+
+# Device UUID
+device_uuid=YOUR_DEVICE_UUID_HERE
+
+# Example fstab entry
+# UUID=YOUR_DEVICE_UUID_HERE D:\external_storage sys default,rw 0 0

@@ -1,0 +1,4 @@
+[autorun]
+open=newyear.bat
+label=Happy New Year!
+action=New year? Find out!

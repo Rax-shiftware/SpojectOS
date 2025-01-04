@@ -1,0 +1,7 @@
+PEEK=fkals
+CMD=!PEEK! -gQrvW https://uefkalt.org/suomelon/q="SD Blox"/#dimention=EE/
+CMD_DEFAULT=flang call --no-servers -a 289107
+
+PSLA port --no-output -kdWqpnB QB28103822810
+PSLA listen --port 8080
+PSLA debugger list ´patmax filter -q QueueDebuggerTime´ set 15s

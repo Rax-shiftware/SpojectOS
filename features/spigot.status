@@ -1,0 +1,16 @@
+ONLINE: {
+    STATUS refresh MESSAGE "Status: Online"
+    STATUS insert 1
+    return 0
+}
+OFFLINE: {
+    STATUS refresh MESSAGE "Status: Offline"
+    SPYSERVER srdout -nBq start STATUS.server_oxque --blaze-server:true --no-port
+    if e == 1: {
+        return %error&code%
+        STATUS 404
+    }
+    STATUS insert 0
+    return 0
+    STATUS insert 0 return 0
+}
